@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitcoin</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./js/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bitcoin.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-xl mx-5 max-width mx-auto px-5">
+        <a href="#" class="navbar-brand ms-5">
+          <img src="./img/logo.png" alt="" class="img-fluid" width="80" />
+        </a>
+        <!-- toggler button -->
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-target="#myNavbar"
+          data-bs-toggle="collapse"
+          aria-controls="myNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse head" id="myNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-3">
+              <a href="#header" class="nav-link orange-color">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="#header" class="nav-link active">About Us</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="#header" class="nav-link active">Social</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="#header" class="nav-link active">How it Work</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="#header" class="nav-link active">Timeline</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a href="#header" class="nav-link active">Tokenomics</a>
+            </li>
+          </ul>
+          <button
+            type="button "
+            class="btn main-btn2 me-3 head orange-color px-5 py-2"
+          >
+            Login
+          </button>
+          <button type="button" class="btn main-btn me-5 head px-5 py-2">
+            Sign Up
+          </button>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div
+        class="container-fluid banner height bg-light d-flex align-items-center"
+        id="banner"
+      >
+        <div class="row max-width mx-auto d-flex align-items-center">
+          <div class="col-xl-6 col-md-10 px-5 mx-auto">
+            <h1 class="px-5">
+              Giving The World
+              <br />
+              Another Chance!
+            </h1>
+            <p class="my-3 px-5">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy Lorem
+              Ipsum is simply dummy text of the printing
+            </p>
+            <div>
+              <button
+                type="button"
+                class="btn main-btn1 me-2 head py-2 ms-5 mt-3"
+              >
+                Buy
+              </button>
+              <button type="button" class="btn outline-btn head px-3 py-2 mt-3">
+                The WhitePaper
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 py-5 text-center d-none d-xl-block">
+            <img src="./img/clock.png" alt="" class="img-fluid" width="50%" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- network -->
+    <section class="network my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">What Is Bitcoin Networks?</h2>
+          </div>
+          <!-- end of title -->
+          <div class="col-lg-4 col-md-6 col-sm-10 text-center mx-auto my-5">
+            <div class="mb-4">
+              <div class="num-div">
+                <span class="num orange-bg px-3 py-2 ms-5">1</span>
+              </div>
+              <i class="fa fa-solid fa-sun ms-0"></i>
+              <div class="circle mx-auto"></div>
+            </div>
+            <h5>Bitcoin Networks is a Token</h5>
+            <p class="px-5 pt-2">
+              Bitcoin Networks (BTCN) is a minable token deployed on the only
+              compatible blockchain: Binance Smart Chain. Bitcoin Networks
+              utilizes BEP20 architecture to achieve its functionality.
+            </p>
+          </div>
+          <!-- end of single col -->
+          <div class="col-lg-4 col-md-6 col-sm-10 text-center mx-auto my-5">
+            <div class="mb-4">
+              <div class="num-div">
+                <span class="num orange-bg px-3 py-2 ms-5">2</span>
+              </div>
+              <i class="fa fa-solid fa-magnifying-glass-dollar ms-0"></i>
+              <div class="circle mx-auto"></div>
+            </div>
+            <h5>Everyone can Mine!</h5>
+            <p class="px-5 pt-2">
+              Bitcoin Networks allows all of its users to mine it through a fair
+              system for everyone! The mining formula is simple and easy to
+              understand: Tokens Owned By You/Circulating Supply*Block Reward.
+            </p>
+          </div>
+          <!-- end of single col -->
+          <div class="col-lg-4 col-md-6 col-sm-10 text-center mx-auto my-5">
+            <div class="mb-4">
+              <div class="num-div">
+                <span class="num orange-bg px-3 py-2 ms-5">3</span>
+              </div>
+              <i class="fa fa-solid fa-comment-dollar ms-0"></i>
+              <div class="circle mx-auto"></div>
+            </div>
+            <h5>Halving Intervals</h5>
+            <p class="px-5 pt-2">
+              Just like any other mineable coin, Bitcoin Networks has mining
+              intervals. After each halving interval, the block reward and time
+              halves, whereas the total phase time doubles..
+            </p>
+          </div>
+          <!-- end of single col -->
+        </div>
+      </div>
+    </section>
+    <!-- end of network -->
+    <!-- how it works -->
+    <section class="work my-5">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-12 my-5">
+            <h2 class="text-center">How It Works</h2>
+          </div>
+          <!-- end of title -->
+          <div
+            class="col-lg-4 col-md-6 col-sm-10 mx-auto text-center my-3 pb-3"
+          >
+            <div class="box py-5">
+              <div class="my-4">
+                <i class="fa fa-solid fa-user ms-0"></i>
+                <div class="circle mx-auto"></div>
+              </div>
+              <h5>BEP-20(BSC)</h5>
+              <p class="px-5 pt-2">
+                Bitcoin Networks is based on the BEP-20 interface and deployed
+                upon Binance Smart Chain, which is fast, secure, and has low
+                transaction costs
+              </p>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <div
+            class="col-lg-4 col-md-6 col-sm-10 mx-auto text-center my-3 pb-3"
+          >
+            <div class="box py-5">
+              <div class="my-4">
+                <i class="fa2 fa-solid fa-trash ms-0"></i>
+                <div class="circle2 mx-auto"></div>
+              </div>
+              <h5>Mineable</h5>
+              <p class="px-5 pt-2">
+                Bitcoin Networks is the first-ever token that everyone can mined
+                and has a fair mining system, which disallows the concentration
+                of tokens in just a few hands.
+              </p>
+            </div>
+          </div>
+          <!-- end of single col -->
+          <div
+            class="col-lg-4 col-md-6 col-sm-10 mx-auto text-center my-3 pb-3"
+          >
+            <div class="box py-5">
+              <div class="my-4">
+                <i class="fa3 fa-solid fa-sun ms-0"></i>
+                <div class="circle3 mx-auto"></div>
+              </div>
+              <h5>Halving</h5>
+              <p class="px-5 pt-2">
+                Bitcoin Networks (BTCN) has four halving intervals, starting
+                from 200 and ending at 25, making it possible to complete the
+                mining in 13 years.
+              </p>
+            </div>
+          </div>
+          <!-- end of single col -->
+        </div>
+      </div>
+    </section>
+    <!-- end of how it works -->
+    <!-- social -->
+    <section id="social" class="social my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>Our Social Media Community</h1>
+            <p class="text-center pt-2 mb-5">
+              Join Bitcoin Networks Social Media Community, stay updated on all
+              the latest news, and stay
+              <br />
+              connected with the dev team.
+            </p>
+          </div>
+          <!-- end of title -->
+          <div class="col-10 mx-auto">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-10 text-center my-3">
+                <div class="box py-5 mx-3">
+                  <i class="fad fa-brands fa-discord"></i>
+                  <h5 class="mt-4">Discord</h5>
+                  <p class="discord">Get Involved</p>
+                </div>
+              </div>
+              <!-- end of single col -->
+              <div class="col-lg-4 col-md-6 col-sm-10 text-center my-3">
+                <div class="box py-5 mx-3">
+                  <i class="fat fa-brands fa-twitter"></i>
+                  <h5 class="mt-4">Twitter</h5>
+                  <p class="twitter">Read the Latest</p>
+                </div>
+              </div>
+              <!-- end of single col -->
+              <div class="col-lg-4 col-md-6 col-sm-10 text-center my-3">
+                <div class="box py-5 mx-3">
+                  <i class="faa fa-brands fa-reddit-alien"></i>
+                  <h5 class="mt-4">Reddit</h5>
+                  <p class="discord">Read Updates</p>
+                </div>
+              </div>
+              <!-- end of single col -->
+              <div class="col-lg-4 col-md-6 col-sm-10 text-center my-3">
+                <div class="box py-5 mx-3">
+                  <i class="fag fa-brands fa-telegram"></i>
+                  <h5 class="mt-4">Telegram</h5>
+                  <p class="telegram">Join Discussion</p>
+                </div>
+              </div>
+              <!-- end of single col -->
+              <div class="col-lg-4 col-md-6 col-sm-10 text-center my-3">
+                <div class="box py-5 mx-3">
+                  <i class="fah fa-brands fa-github-alt"></i>
+                  <h5 class="mt-4">Github</h5>
+                  <p class="git">Build with Us</p>
+                </div>
+              </div>
+              <!-- end of single col -->
+            </div>
+            <!-- end of single row -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of social -->
+    <!-- features -->
+    <section id="features" class="features bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 py-5 my-5 d-none d-xl-block">
+            <img src="./img/chess.png" alt="" class="img-fluid" width="100%" />
+          </div>
+          <div class="col-xl-6 col-lg-10 py-5 my-5 ps-5">
+            <h1>Meet With Our Features</h1>
+            <div class="d-flex mt-5">
+              <div class="icons text-center me-4 mt-3">
+                <i class="icon fa-solid fa-user pb-2"></i>
+                <div class="icon-circle"></div>
+              </div>
+              <div class="text">
+                <h5>Bitcoin Networks on BSC</h5>
+                <p>
+                  A peer-to-peer system that supports a large variety of smart
+                  contracts.
+                </p>
+              </div>
+            </div>
+            <!-- end of single -->
+            <div class="d-flex mt-5">
+              <div class="icons text-center me-4 mt-3">
+                <i class="icon fa-solid fa-lock pb-2"></i>
+                <div class="icon-circle"></div>
+              </div>
+              <div class="text">
+                <h5>Open-Source</h5>
+                <p>
+                  Bitcoin Networks is an open-source project, and its code is
+                  available on both, BSC Scan and GitHub!
+                </p>
+              </div>
+            </div>
+            <!-- end of single -->
+            <div class="d-flex mt-5">
+              <div class="icons text-center me-4 mt-3">
+                <i class="icon fa-solid fa-shield-halved pb-2"></i>
+                <div class="icon-circle"></div>
+              </div>
+              <div class="text">
+                <h5>Secure</h5>
+                <p>
+                  All blockchains are secure but due to BSC's latest algorithms,
+                  it makes it more reliable.
+                </p>
+              </div>
+            </div>
+            <!-- end of single -->
+            <div class="d-flex mt-5">
+              <div class="icons text-center me-4 mt-3">
+                <i class="icon fa-solid fa-clock pb-2"></i>
+                <div class="icon-circle"></div>
+              </div>
+              <div class="text">
+                <h5>Fast</h5>
+                <p>
+                  BSC is the fastest blockchain with each block mined in 3
+                  seconds and has very low gas fees.
+                </p>
+              </div>
+            </div>
+            <!-- end of single -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of features -->
+    <!-- choose -->
+    <section id="choose" class="choose my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>Why Choice us</h1>
+            <p class="text-center pt-2 mb-5">
+              Join Bitcoin Networks Social Media Community, stay updated on all
+              the latest news, and stay
+              <br />
+              connected with the dev team.
+            </p>
+          </div>
+          <!-- end of title -->
+          <div class="col-10 mx-auto">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-10 mx-auto text-center my-3">
+                <div class="box py-5 mx-3">
+                  <i class="icon fa-solid fa-user"></i>
+                  <h5 class="mt-4">2,224,235</h5>
+                  <p>Holders</p>
+                </div>
+              </div>
+              <!-- end of single col -->
+              <div class="col-lg-4 col-md-6 col-sm-10 mx-auto text-center my-3">
+                <div class="box-shadow py-5 mx-3">
+                  <i class="icon fa-brands fa-bandcamp"></i>
+                  <h5 class="mt-4">41,53,54346,4</h5>
+                  <p>Tokens Burned</p>
+                </div>
+              </div>
+              <!-- end of single col -->
+              <div class="col-lg-4 col-md-6 col-sm-10 mx-auto text-center my-3">
+                <div class="box py-5 mx-3">
+                  <i class="icon fa-solid fa-droplet"></i>
+                  <h5 class="mt-4">$35,546,45</h5>
+                  <p>Liquidity</p>
+                </div>
+              </div>
+              <!-- end of single col -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of choose -->
+    <!-- timeline -->
+    <section id="timeline" class="timeline my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>The Timeline</h1>
+            <p class="text-center pt-2 mb-5 title-text">
+              Halving intervals, free of miner manipulations.
+            </p>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 mx-auto">
+              <div class="timeline-box text-center mt-5 py-3">
+                <p class="box-text">
+                  Phase 2: Block Reward = 100 BTCN,
+                  <br />
+                  Block Time = 15 minutes
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of title -->
+          <div class="col-10 mt-4 mx-auto">
+            <img src="./img/timeline.png" alt="" class="img-fluid" />
+          </div>
+          <!-- end of image -->
+          <div class="col-10 time d-flex justify-content-between mt-3 mx-auto">
+            <p>12.00 am</p>
+            <p>11.59 pm</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of timeline -->
+    <!-- news -->
+    <section id="news" class="news my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>Our Latest News</h1>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-10 mx-auto my-5 news-col">
+            <div class="mx-auto">
+              <div class="new-img">
+                <img
+                  src="./img/news1.png"
+                  alt=""
+                  class="img-fluid"
+                  width="100%"
+                />
+              </div>
+              <div class="img-text my-3">
+                <p class="img-para mb-1">Maining</p>
+                <h6>How to earn bit coin supar easy with our team</h6>
+                <div class="d-flex my-3 news-footer">
+                  <p class="me-5">8 Jun 2020</p>
+                  <p>By Tufayel</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end of single col -->
+          <div class="col-lg-4 col-md-6 col-sm-10 mx-auto my-5 news-col">
+            <div class="mx-auto">
+              <div class="new-img">
+                <img
+                  src="./img/new2.png"
+                  alt=""
+                  class="img-fluid"
+                  width="100%"
+                />
+              </div>
+              <div class="img-text my-3">
+                <p class="img-para mb-1">Maining</p>
+                <h6 class="img-head">
+                  How to earn bit coin supar easy with our team
+                </h6>
+                <div class="d-flex my-3 news-footer">
+                  <p class="me-5">8 Jun 2020</p>
+                  <p>By Tufayel</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end of single col -->
+          <div class="col-lg-4 col-md-6 col-sm-10 mx-auto mt-5 news-col">
+            <div class="mx-auto">
+              <div class="new-img">
+                <img
+                  src="./img/news3.png"
+                  alt=""
+                  class="img-fluid"
+                  width="100%"
+                />
+              </div>
+              <div class="img-text my-3">
+                <p class="img-para mb-1">Maining</p>
+                <h6>How to earn bit coin supar easy with our team</h6>
+                <div class="d-flex my-3 news-footer">
+                  <p class="me-5">8 Jun 2020</p>
+                  <p>By Tufayel</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end of single col -->
+        </div>
+      </div>
+    </section>
+    <!-- end of news -->
+    <!-- form -->
+    <section id="form" class="my-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 text-center mx-auto orange-bg py-5 form">
+            <h3 class="pt-4 pb-2">Stay Updated on the latest news</h3>
+            <p class="pb-4">Subsribe with your email get daily update</p>
+            <div class="row">
+              <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+                <form class="pb-4">
+                  <div class="input-group">
+                    <!-- Prepend icon -->
+                    <span class="input-group-text">
+                      <i class="fa fa-solid fa-envelope"></i>
+                    </span>
+
+                    <!-- Input -->
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter Your Email Address"
+                    />
+
+                    <!-- Append button -->
+
+                    <button class="btn py-2 px-3 main-btn-white" type="submit">
+                      Subscribe
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of form -->
+    <!-- footer -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 pt-5 mx-auto">
+            <div class="margin-class">
+              <div class="row">
+                <div class="col-lg-3 col-md-11 mx-auto">
+                  <img
+                    src="./img/logo.png"
+                    alt=""
+                    width="50"
+                    class="img-fluid mt-5"
+                  />
+                  <p class="text-white-50 mt-4 pe-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    ndustry. Lorem Ipsum has been the
+                  </p>
+                  <div class="icon mb-5 mt-4">
+                    <span class="f-icon me-2 ps-2 pe-1 py-2">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </span>
+                    <span class="t-icon mx-2 ps-2 pe-1 py-2">
+                      <i class="fa-brands fa-twitter"></i>
+                    </span>
+                    <span class="w-icon orange-color ms-2 p-2">
+                      <i class="fa-brands fa-wolf-pack-battalion"> </i>
+                    </span>
+                  </div>
+                </div>
+                <!-- end of single col -->
+                <div class="col-lg-3 col-md-4 mx-auto">
+                  <h5 class="text-white mt-5">Useful Links</h5>
+                  <div class="text-white-50 mt-5">
+                    <p class="mb-2">Home</p>
+                    <p class="my-2">About Us</p>
+                    <p class="my-2">Social</p>
+                    <p class="mt-2">How it Work</p>
+                  </div>
+                </div>
+                <!-- end of single col -->
+                <div class="col-lg-3 col-md-4 mx-auto">
+                  <h5 class="text-white mt-5">Help</h5>
+                  <div class="text-white-50 mt-5">
+                    <p class="mb-2">About Us</p>
+                    <p class="my-2">Legal warning</p>
+                    <p class="my-2">Cookies policy</p>
+                    <p class="mt-2">Privacy Policy</p>
+                  </div>
+                </div>
+                <!-- end of single col -->
+                <div class="col-lg-3 col-md-4 mx-auto">
+                  <h5 class="text-white mt-5">Contact Us</h5>
+                  <div class="text-white-50 mt-5">
+                    <p class="mb-2">Demo@gmai.com</p>
+                    <p class="my-2">+460-507-6865</p>
+                    <p class="my-2">Facebook</p>
+                    <p class="mt-2">Instagram</p>
+                  </div>
+                </div>
+                <!-- end of single col -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+  </body>
+</html>

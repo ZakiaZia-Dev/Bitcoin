@@ -1,0 +1,117 @@
+:root {
+  --main-orange: #f79421;
+  --main-white: #ffffff;
+  --main-grey: #8591af;
+}
+.orange-color {
+  color: var(--main-orange);
+}
+.orange-bg {
+  background: var(--main-orange);
+}
+.head {
+  font-weight: 600;
+  font-size: 16px;
+}
+.main-btn {
+  background: var(--main-orange);
+  color: var(--main-white);
+  border-radius: 4px;
+  border: 2px solid var(--main-orange);
+}
+.main-btn:hover {
+  background: var(--main-white);
+  color: var(--main-orange);
+  border: 2px solid var(--main-orange);
+}
+.main-btn2:hover {
+  background: var(--main-white);
+  color: var(--main-orange);
+  border: 2px solid var(--main-orange);
+}
+.outline-btn {
+  border: 1px solid var(--main-orange);
+  color: var(--main-orange);
+  background: transparent;
+  border-radius: 4px;
+}
+.outline-btn:hover {
+  background: var(--main-orange);
+  color: var(--main-white);
+}
+/* news post */
+.main-box p {
+  color: var(--main-grey);
+}
+.main-box h5 {
+  color: #072447;
+}
+.box,
+.icon,
+.outline-btn {
+  transition: all 0.8s ease;
+}
+.icon {
+  color: var(--main-orange);
+}
+.main-box:hover .icon {
+  color: var(--main-white);
+}
+.main-box:hover .outline-btn {
+  background: var(--main-white);
+  color: var(--main-orange);
+}
+.box {
+  background: #f8f9fa;
+}
+.main-box:hover .box {
+  background: var(--main-orange);
+  color: var(--main-white);
+}
+/* pagination */
+.pg {
+  color: var(--main-orange);
+}
+/* form */
+.form {
+  border-radius: 10px;
+}
+.form h3,
+.form p {
+  color: var(--main-white);
+}
+.form .fa {
+  color: var(--main-orange);
+  font-size: 20px;
+}
+.form input::placeholder {
+  color: var(--main-grey);
+  font-size: 14px;
+}
+.main-btn-white {
+  border: 10px solid var(--main-white);
+  color: var(--main-white);
+  font-weight: 600;
+}
+.main-btn-white:hover {
+  border: 2px solid var(--main-orange);
+  color: var(--main-orange);
+  background: var(--main-white);
+}
+/* footer */
+.footer .f-icon,
+.footer .t-icon,
+.footer .w-icon {
+  background: var(--main-white);
+  border-radius: 50%;
+}
+.footer p {
+  font-size: 14px;
+}
+footer {
+  margin-top: -200px;
+  background: #2b3044;
+}
+.margin-class {
+  padding-top: 180px;
+}

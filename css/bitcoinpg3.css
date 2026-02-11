@@ -1,0 +1,124 @@
+:root {
+  --main-orange: #f79421;
+  --main-white: #ffffff;
+  --main-grey: #8591af;
+  --main-blue: #072447;
+}
+.orange-color {
+  color: var(--main-orange);
+}
+.orange-bg {
+  background: var(--main-orange);
+}
+.blue-color {
+  color: var(--main-blue);
+}
+.grey-color {
+  color: var(--main-grey);
+}
+.head {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.main-btn {
+  background: var(--main-orange);
+  color: var(--main-white);
+  border-radius: 4px;
+  border: 2px solid var(--main-orange);
+}
+.main-btn:hover {
+  background: var(--main-white);
+  color: var(--main-orange);
+  border: 2px solid var(--main-orange);
+}
+.main-btn2:hover {
+  background: var(--main-white);
+  color: var(--main-orange);
+  border: 2px solid var(--main-orange);
+}
+.outline-btn {
+  border: 1px solid var(--main-orange);
+  color: var(--main-orange);
+  background: transparent;
+  border-radius: 4px;
+}
+.outline-btn:hover {
+  background: var(--main-orange);
+  color: var(--main-white);
+}
+#news h2,
+#news h3 {
+  color: var(--main-blue);
+}
+/* icon */
+.icon {
+  color: var(--main-orange);
+  font-size: 20px;
+}
+.i-icon .f-icon,
+.i-icon .t-icon {
+  background: var(--main-white);
+  border-radius: 50%;
+  border: 1px solid #f2f3f3;
+}
+.i-icon .w-icon {
+  border-radius: 50%;
+  color: var(--main-white);
+}
+/* form */
+.width-100 {
+  width: 100%;
+}
+.form-control {
+  background: #f2f3f3;
+}
+.search {
+  background: var(--main-white);
+}
+hr {
+  color: var(--main-grey);
+}
+/* form */
+.form {
+  border-radius: 10px;
+}
+.form h3,
+.form p {
+  color: var(--main-white);
+}
+.form .fa {
+  color: var(--main-orange);
+  font-size: 20px;
+}
+.form input::placeholder {
+  color: var(--main-grey);
+  font-size: 14px;
+}
+.main-btn-white {
+  border: 10px solid var(--main-white);
+  color: var(--main-white);
+  font-weight: 600;
+}
+.main-btn-white:hover {
+  border: 2px solid var(--main-orange);
+  color: var(--main-orange);
+  background: var(--main-white);
+}
+/* footer */
+.footer .f-icon,
+.footer .t-icon,
+.footer .w-icon {
+  background: var(--main-white);
+  border-radius: 50%;
+}
+.footer p {
+  font-size: 14px;
+}
+footer {
+  margin-top: -200px;
+  background: #2b3044;
+}
+.margin-class {
+  padding-top: 180px;
+}
