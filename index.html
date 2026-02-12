@@ -16,14 +16,14 @@
   </head>
   <body>
     <header id="header">
-      <nav class="navbar navbar-expand-xl max-width mx-auto px-5">
+      <nav class="navbar navbar-expand-xl max-width mx-auto">
         <a href="#" class="navbar-brand ms-5">
           <img src="./img/logo.png" alt="" class="img-fluid" width="80" />
         </a>
         <!-- toggler button -->
         <button
           type="button"
-          class="navbar-toggler"
+          class="navbar-toggler me-4"
           data-bs-target="#myNavbar"
           data-bs-toggle="collapse"
           aria-controls="myNavbar"
@@ -53,20 +53,22 @@
               <a href="#header" class="nav-link active">Tokenomics</a>
             </li>
           </ul>
-          <button
-            type="button "
-            class="btn main-btn2 me-3 head orange-color px-5 py-2"
-          >
-            Login
-          </button>
-          <button type="button" class="btn main-btn me-5 head px-5 py-2">
-            Sign Up
-          </button>
+          <div class="d-flex">
+            <button
+              type="button "
+              class="btn main-btn2 head orange-color ms-3 px-5 py-2"
+            >
+              Login
+            </button>
+            <button type="button" class="btn main-btn mx-4 head px-5 py-2">
+              Sign Up
+            </button>
+          </div>
         </div>
       </nav>
       <!-- banner -->
       <div
-        class="container-fluid banner height bg-secondary d-flex align-items-center"
+        class="container-fluid banner height bg-light d-flex align-items-center mx-auto"
         id="banner"
       >
         <div class="row max-width mx-auto d-flex align-items-center">
